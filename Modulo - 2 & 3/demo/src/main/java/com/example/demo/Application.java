@@ -17,7 +17,13 @@ public class Application {
 		builder.bannerMode(Banner.Mode.OFF);
 		ConfigurableApplicationContext applicationContext = builder.context();
 
+		builder.lazyInitialization(true);
+
 		builder.run(args);
+
+		ExemploValue value =  applicationContext.getBean(ExemploValue.class);
+
+		value.imprimirVariavel();
 	}
 
 }
