@@ -1,8 +1,10 @@
 package com.example.demo.montadora.api;
 
-import com.example.demo.montadora.*;
+import com.example.demo.montadora.CarroStatus;
+import com.example.demo.montadora.Chave;
+import com.example.demo.montadora.HondaHRV;
+import com.example.demo.montadora.Motor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
